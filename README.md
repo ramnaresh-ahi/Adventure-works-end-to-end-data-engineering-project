@@ -49,7 +49,7 @@ for analytics.
 ---
 
 ## 📁 Project Structure
-
+```
 adventure-works-data-engineering/
 │
 ├── README.md (Main documentation - START HERE)
@@ -87,7 +87,7 @@ adventure-works-data-engineering/
 │
 └── images/
     └── (screenshots of each stage)
-
+```
 See each folder's README for detailed setup instructions.
 
 ---
