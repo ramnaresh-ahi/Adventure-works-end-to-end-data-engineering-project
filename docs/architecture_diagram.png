@@ -1,0 +1,44 @@
+┌─────────────┐
+│   Kaggle    │
+└──────┬──────┘
+       │
+       ▼
+┌─────────────────────┐
+│ AWS Lambda          │ (Data Ingestion)
+│ Extract & Load      │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Amazon S3           │
+│ Raw/ Folder         │ (Data Lake - Raw)
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ AWS Glue Crawler    │ (Schema Discovery)
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Glue Data Catalog   │ (Metadata)
+└─────────────────────┘
+       ▲
+       │
+       ▼
+┌─────────────────────┐
+│ AWS Glue ETL Job    │ (PySpark Transform)
+│ (Transform Logic)   │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Amazon S3           │
+│ Transformed/ Folder │ (Data Lake - Processed)
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Redshift Serverless │ (Data Warehouse)
+│ Star Schema         │ (Analytics Ready)
+└─────────────────────┘
