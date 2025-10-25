@@ -52,7 +52,7 @@ for analytics.
 ```
 adventure-works-data-engineering/
 │
-├── README.md (Main documentation - START HERE)
+├── README.md 
 ├── ARCHITECTURE.md (Architecture & design decisions)
 ├── LICENSE
 │
@@ -242,7 +242,7 @@ See `05_infrastructure/` for detailed IAM policies.
 
 ## 📞 Contact & Questions
 
-For questions about this project, contact: [https://www.linkedin.com/in/ramnaresh-ahirwar-77abc/]
+For questions about this project, [Connect with me on LinkedIn](https://www.linkedin.com/in/ramnaresh-ahirwar-77abc/)
 
 ---
 
