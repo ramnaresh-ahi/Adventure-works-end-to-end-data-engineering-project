@@ -71,8 +71,7 @@ adventure-works-data-engineering/
 │   └── README.md (ETL job documentation)
 │
 ├── 04_data_warehouse/
-│   ├── redshift_schema.sql (DDL for dimension/fact tables)
-│   ├── data_loading.sql (COPY commands)
+│   ├── redshift_schema.sql (DDL for dimension/fact tables and data loading)
 │   └── README.md (Redshift setup)
 │
 ├── 05_infrastructure/
