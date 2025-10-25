@@ -10,6 +10,152 @@ for analytics.
 
 ---
 
+# Problem Statement & Solution
+
+## 📋 Problem Statement
+
+### Business Challenge
+Adventure Works needs to understand which products and customer segments generate the most profit to optimize marketing spend and product strategy.
+
+### Key Questions
+1. Which product categories have the highest profit margins?
+2. Which customer demographics (age, income, gender) spend the most?
+3. Which product-customer segment combinations are most profitable?
+4. Which geographic regions perform best?
+
+### Business Goal
+Enable the sales team to make **data-driven decisions** on product focus and marketing budget allocation based on profitability, not just revenue.
+
+---
+
+## 💡 Solution Overview
+
+### Key Metrics Calculated
+
+| Metric | Formula | Business Use |
+|--------|---------|--------------|
+| **Profit** | Revenue - Cost | Identify profitable products |
+| **Profit Margin %** | (Profit / Revenue) × 100 | Compare product profitability |
+| **Average Order Value (AOV)** | Total Revenue / Order Count | Measure customer spending |
+| **Customer Lifetime Value (CLV)** | Sum of all customer orders | Identify VIP customers |
+| **Age Groups** | Bucket ages into 5 groups | Demographic analysis |
+| **Income Brackets** | Low / Medium / High / Premium | Income-based segmentation |
+
+---
+
+## 🎯 Analytics Insights
+
+### 1. Product Performance Analysis
+
+**What We Analyze:**
+- Revenue contribution by product category
+- Profit margins across product lines
+- Identify high-volume, low-margin products (optimization opportunities)
+- Identify high-margin, low-volume products (growth opportunities)
+
+**Key Findings:**
+- Which categories drive the most profit (not just revenue)
+- Products to promote vs. products to phase out
+- Price elasticity and margin optimization opportunities
+- Category-wise performance trends
+
+---
+
+### 2. Customer Segmentation by Demographics
+
+**What We Analyze:**
+- Spending patterns by age group
+- Income bracket impact on purchase behavior
+- Gender-based product preferences
+- Geographic differences in customer value
+
+**Key Findings:**
+- High-value customer demographics (highest AOV & CLV)
+- Age groups with best profit potential
+- Income brackets most likely to purchase premium products
+- Regional customer quality differences
+
+---
+
+### 3. Profitability Matrix (Product × Customer Segment)
+
+**What We Analyze:**
+- Which products sell best to which customer segments
+- Product-segment combinations with highest margins
+- Cross-selling opportunities within demographics
+- Untapped market combinations
+
+**Key Findings:**
+- Premium products perform best with high-income customers
+- Age group preferences by product category
+- Geographic variations in product performance
+- Marketing budget allocation by segment
+
+---
+
+### 4. Geographic Territory Performance
+
+**What We Analyze:**
+- Revenue and profit by country/region
+- Regional market maturity (established vs. growth markets)
+- Territory profitability and efficiency
+- Geographic expansion opportunities
+
+**Key Findings:**
+- Top-performing territories by profit
+- Underperforming regions needing attention
+- Growth potential markets for expansion
+- Regional profit margin differences
+
+---
+
+### 5. Customer Value & Segmentation
+
+**What We Analyze:**
+- Customer lifetime value distribution
+- Purchase frequency patterns
+- Repeat customer vs. new customer value
+- Customer retention opportunities
+
+**Key Findings:**
+- VIP customers (high CLV, high frequency)
+- At-risk customers (declining purchase patterns)
+- High-value customer profile for targeting
+- Customer retention strategy opportunities
+
+---
+
+## 🎯 Business Outcomes & Actions
+
+### Immediate Actions Enabled
+
+✅ **Product Strategy**
+- Focus marketing on high-margin products instead of high-volume ones
+- Identify and optimize low-margin product lines
+- Allocate shelf space based on profitability, not just sales volume
+
+✅ **Marketing Optimization**
+- Target premium products to high-income segments
+- Geographic marketing campaigns based on territory performance
+- Age-group specific product promotions
+
+✅ **Customer Management**
+- VIP customer retention programs (highest CLV segment)
+- Risk mitigation for declining customer segments
+- Personalized offers based on demographic profile
+
+✅ **Revenue Growth**
+- Cross-sell opportunities within customer segments
+- Market expansion in underperforming territories
+- Product-mix optimization for maximum profitability
+
+✅ **Budget Allocation**
+- Data-driven marketing spend by product & segment
+- Reduced spending on low-ROI combinations
+- Investment in high-potential segments
+
+---
+
 ## 🏗️ Architecture
 
 [Insert architecture diagram here]
